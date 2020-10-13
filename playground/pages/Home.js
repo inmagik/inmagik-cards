@@ -13,7 +13,7 @@ export default class Home extends React.PureComponent {
       <div>
         <div>
           <LogoCircles circles={false}/>
-          <LogoCircles/>
+          <LogoCircles url={""}/>
           <LogoCircles upper={false} colors={['black']}/>
           <LogoCircles upper={false} delta={50}/>
           <hr/>
@@ -21,7 +21,9 @@ export default class Home extends React.PureComponent {
           <LogoCircles upper={false} width={300} colors={['#ccc', '#bbb', '#aaa', 'hotpink']} delta={10} url={null}/>
           <LogoCircles upper={false} width={300} colors={['#ccc', '#bbb', '#aaa']} delta={5}/>
           <LogoCircles upper={false} width={300}
-            colors={['#ccc', '#bbb', '#aaa', 'deepskyblue','#ccc', '#bbb', '#aaa', 'dodgerblue']} delta={5}/>
+            colors={['#ccc', '#bbb', '#aaa', 'deepskyblue',
+              '#ccc', '#bbb', '#aaa', 'dodgerblue',
+              '#ccc', '#bbb', '#aaa', 'yellow']} delta={5}/>
           <hr/>
           <LogoCircles upper={false} width={400} height={300}/>
         </div>

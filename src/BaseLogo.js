@@ -7,11 +7,11 @@ export const BaseLogo = ({width, upper=false, url=null}) => {
 
   return (
   <g transform={`scale(${scale})`}>
-    <circle cx={500} cy={500} r={500} style={{fill:'#eee'}}>
-    </circle>
+    {/* <circle cx={500} cy={500} r={500} style={{fill:'#eee'}}>
+    </circle> */}
 
-    <circle cx={500} cy={500} r={490} style={{fill:'deepskyblue'}}>
-    </circle>
+    {/* <circle cx={500} cy={500} r={490} style={{fill:'deepskyblue'}}>
+    </circle> */}
 
     <circle cx={500} cy={500} r={450}>
     </circle>
@@ -22,14 +22,14 @@ export const BaseLogo = ({width, upper=false, url=null}) => {
     })} */}
 
       <g>
-      <text x={500} y={500} className="circles-im" style={{fontSize:390}}>{ upper ? 'I' : 'i'}
+      <text alignmentBaseline="text-bottom" x={500} y={500} className="circles-im" style={{fontSize:390}}>{ upper ? 'I' : 'i'}
         <tspan className="circles-im" style={{fill:'deepskyblue'}}>{ upper ? 'M' : 'm'}</tspan>
       </text>
-      { urlShown && (
+      {/* { urlShown && (
         <text className="circles-im" x={500} y={700} style={{fontSize:50}}>
           {urlShown}
         </text>
-      )}
+      )} */}
       </g>
 
   </g>

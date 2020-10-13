@@ -7,7 +7,7 @@
 .circles-im {
   fill:#fff;
   text-anchor: middle;
-  alignment-baseline: middle;
+  dominant-baseline: middle;
   font-family: 'Michroma', sans-serif;
-  
+  line-height: 1;
 }
